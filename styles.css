@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,400;1,500&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /*font: normal 16px 'Roboto', sans-serif;*/
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+a {
+    color: olive;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: rgb(153, 153, 153);
+}
+
+.iam {
+width: 300px;
+border-radius: 30px;
+box-shadow: -6px 13px 14px 6px rgba(49, 30, 12, 0.9); 
+}
+ 
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 50px; */
+}
+/* Box Model */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* .social {
+background: lawngreen; */
+/* padding-top: 30px;
+padding-right: 5px;
+padding-bottom: 50px;
+padding-left: 25px; */
+/* padding: 15px;
+margin: 20px;
+border: 5px solid red; */
+/* border-bottom-style: dotted;
+border-top-width: 15px;
+border-right-color: blue;
+border-bottom-left-radius: 40px; */
+/* } */
+
+/* .box-model > div {
+float: left;    
+background: #0a4752;
+height: 100px;
+width: 25%;
+border: 4px solid rebeccapurple;
+box-sizing: border-box; 
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-yellow h3 {
+    color: #e2d951;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-green h3 {
+    color: rgb(127, 187, 142);
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-red h3 {
+    color: rgb(190, 99, 117);
+}
+
+.bg-blue {
+    background: #d4e5f1;
+}
+
+.bg-blue h3 {
+    color: rgb(97, 144, 167);
+}
+
+/* .learn {
+    display: flex;
+}
+
+.learn >.card {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.learn >.card:last-child{
+    margin-right: 0;
+} */
+
+.card h3 {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th {
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+/* .table tr:nth-child(even) {
+    background: red;
+} */
+
+.link-list {
+     list-style: none;
+     padding: 0;
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.habbit {
+    list-style: square;
+    color: #86898f;
+}
+
+.contact h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row >.form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row >.form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/* Position */
+
+/* .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: fuchsia; 
+} */
